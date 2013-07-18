@@ -1,0 +1,56 @@
+body {
+	background-image: url(../images/paper.png);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline
+}
+
+a:visited {
+	color: black;
+}
+
+.content {
+	width: 70%;
+	margin: auto;
+}
+
+.company {
+	display: inline;
+}
+
+.date {
+	display: inline;
+	float: right;
+	margin: 0;
+}
+
+.contact-info {
+	list-style: none;	
+	text-align: center;
+}
+
+
+.contact-info li {
+	display: inline;
+	margin-left: 20px;
+}
+
+
+.name {
+	text-align: center;
+}
+
+.contact-info {
+	border-bottom: solid 2px black;
+	padding-bottom: 15px;
+}
